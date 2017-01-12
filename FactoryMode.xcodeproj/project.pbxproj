@@ -13,6 +13,16 @@
 		DCE1F3A21E166F9A00F53F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1F3A01E166F9A00F53F13 /* Main.storyboard */; };
 		DCE1F3A41E166F9A00F53F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE1F3A31E166F9A00F53F13 /* Assets.xcassets */; };
 		DCE1F3A71E166F9A00F53F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1F3A51E166F9A00F53F13 /* LaunchScreen.storyboard */; };
+		DCE1F3B01E167E0800F53F13 /* Summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3AF1E167E0800F53F13 /* Summoner.m */; };
+		DCE1F3B31E167E7000F53F13 /* SummonerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3B21E167E7000F53F13 /* SummonerFactory.m */; };
+		DCE1F3B61E1681C400F53F13 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3B51E1681C400F53F13 /* Warrior.m */; };
+		DCE1F3B91E16821F00F53F13 /* Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3B81E16821F00F53F13 /* Magic.m */; };
+		DCE1F3BC1E16822A00F53F13 /* Assassin.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3BB1E16822A00F53F13 /* Assassin.m */; };
+		DCE1F3BF1E16823400F53F13 /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3BE1E16823400F53F13 /* Tank.m */; };
+		DCE1F3C21E16824000F53F13 /* Shooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3C11E16824000F53F13 /* Shooter.m */; };
+		DCE1F3C51E16824900F53F13 /* Assist.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3C41E16824900F53F13 /* Assist.m */; };
+		DCE1F3CE1E1690C400F53F13 /* DeMaXiYaSummonerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3CD1E1690C400F53F13 /* DeMaXiYaSummonerFactory.m */; };
+		DCE1F3D11E190BE500F53F13 /* NuoKeSaSiSummonerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F3D01E190BE500F53F13 /* NuoKeSaSiSummonerFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		DCE1F3A31E166F9A00F53F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE1F3A61E166F9A00F53F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE1F3A81E166F9A00F53F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE1F3AE1E167E0800F53F13 /* Summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summoner.h; sourceTree = "<group>"; };
+		DCE1F3AF1E167E0800F53F13 /* Summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summoner.m; sourceTree = "<group>"; };
+		DCE1F3B11E167E7000F53F13 /* SummonerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummonerFactory.h; sourceTree = "<group>"; };
+		DCE1F3B21E167E7000F53F13 /* SummonerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerFactory.m; sourceTree = "<group>"; };
+		DCE1F3B41E1681C400F53F13 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		DCE1F3B51E1681C400F53F13 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		DCE1F3B71E16821F00F53F13 /* Magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic.h; sourceTree = "<group>"; };
+		DCE1F3B81E16821F00F53F13 /* Magic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic.m; sourceTree = "<group>"; };
+		DCE1F3BA1E16822900F53F13 /* Assassin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assassin.h; sourceTree = "<group>"; };
+		DCE1F3BB1E16822A00F53F13 /* Assassin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assassin.m; sourceTree = "<group>"; };
+		DCE1F3BD1E16823400F53F13 /* Tank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tank.h; sourceTree = "<group>"; };
+		DCE1F3BE1E16823400F53F13 /* Tank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tank.m; sourceTree = "<group>"; };
+		DCE1F3C01E16824000F53F13 /* Shooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shooter.h; sourceTree = "<group>"; };
+		DCE1F3C11E16824000F53F13 /* Shooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shooter.m; sourceTree = "<group>"; };
+		DCE1F3C31E16824900F53F13 /* Assist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assist.h; sourceTree = "<group>"; };
+		DCE1F3C41E16824900F53F13 /* Assist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assist.m; sourceTree = "<group>"; };
+		DCE1F3CC1E1690C400F53F13 /* DeMaXiYaSummonerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeMaXiYaSummonerFactory.h; sourceTree = "<group>"; };
+		DCE1F3CD1E1690C400F53F13 /* DeMaXiYaSummonerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeMaXiYaSummonerFactory.m; sourceTree = "<group>"; };
+		DCE1F3CF1E190BE500F53F13 /* NuoKeSaSiSummonerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuoKeSaSiSummonerFactory.h; sourceTree = "<group>"; };
+		DCE1F3D01E190BE500F53F13 /* NuoKeSaSiSummonerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuoKeSaSiSummonerFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +72,26 @@
 		DCE1F38B1E166F9A00F53F13 = {
 			isa = PBXGroup;
 			children = (
+				DCE1F3CF1E190BE500F53F13 /* NuoKeSaSiSummonerFactory.h */,
+				DCE1F3D01E190BE500F53F13 /* NuoKeSaSiSummonerFactory.m */,
+				DCE1F3CC1E1690C400F53F13 /* DeMaXiYaSummonerFactory.h */,
+				DCE1F3CD1E1690C400F53F13 /* DeMaXiYaSummonerFactory.m */,
+				DCE1F3B11E167E7000F53F13 /* SummonerFactory.h */,
+				DCE1F3B21E167E7000F53F13 /* SummonerFactory.m */,
+				DCE1F3C31E16824900F53F13 /* Assist.h */,
+				DCE1F3C41E16824900F53F13 /* Assist.m */,
+				DCE1F3C01E16824000F53F13 /* Shooter.h */,
+				DCE1F3C11E16824000F53F13 /* Shooter.m */,
+				DCE1F3BD1E16823400F53F13 /* Tank.h */,
+				DCE1F3BE1E16823400F53F13 /* Tank.m */,
+				DCE1F3BA1E16822900F53F13 /* Assassin.h */,
+				DCE1F3BB1E16822A00F53F13 /* Assassin.m */,
+				DCE1F3B71E16821F00F53F13 /* Magic.h */,
+				DCE1F3B81E16821F00F53F13 /* Magic.m */,
+				DCE1F3B41E1681C400F53F13 /* Warrior.h */,
+				DCE1F3B51E1681C400F53F13 /* Warrior.m */,
+				DCE1F3AE1E167E0800F53F13 /* Summoner.h */,
+				DCE1F3AF1E167E0800F53F13 /* Summoner.m */,
 				DCE1F3961E166F9A00F53F13 /* FactoryMode */,
 				DCE1F3951E166F9A00F53F13 /* Products */,
 			);
@@ -151,9 +201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1F3C51E16824900F53F13 /* Assist.m in Sources */,
+				DCE1F3B91E16821F00F53F13 /* Magic.m in Sources */,
+				DCE1F3B61E1681C400F53F13 /* Warrior.m in Sources */,
+				DCE1F3D11E190BE500F53F13 /* NuoKeSaSiSummonerFactory.m in Sources */,
+				DCE1F3C21E16824000F53F13 /* Shooter.m in Sources */,
+				DCE1F3CE1E1690C400F53F13 /* DeMaXiYaSummonerFactory.m in Sources */,
+				DCE1F3BC1E16822A00F53F13 /* Assassin.m in Sources */,
 				DCE1F39F1E166F9A00F53F13 /* ViewController.m in Sources */,
 				DCE1F39C1E166F9A00F53F13 /* AppDelegate.m in Sources */,
+				DCE1F3B31E167E7000F53F13 /* SummonerFactory.m in Sources */,
 				DCE1F3991E166F9A00F53F13 /* main.m in Sources */,
+				DCE1F3B01E167E0800F53F13 /* Summoner.m in Sources */,
+				DCE1F3BF1E16823400F53F13 /* Tank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
